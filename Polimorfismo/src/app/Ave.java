@@ -2,7 +2,7 @@ package app;
 
 public class Ave extends Animal{
 
-  private String corPena;
+  protected String corPena;
 
   public Ave(float peso, int idade, int membros, String corPena){
     this.peso = peso;

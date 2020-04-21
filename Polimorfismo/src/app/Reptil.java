@@ -2,7 +2,7 @@ package app;
 
 public class Reptil extends Animal{
 
-    private String corEscama;
+    protected String corEscama;
   
     public Reptil(float peso, int idade, int membros, String corEscama){
       this.peso = peso;
